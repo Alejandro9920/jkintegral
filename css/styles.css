@@ -106,8 +106,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .xlogo {
-    max-width: 104px; 
-    height: 70px !important;
+    max-width: 85px; 
+    height: 115px !important;
 }
 
 .subtitle {
@@ -116,4 +116,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .obras__img{
     max-width: 650px;
+}
+
+.iconify{
+    vertical-align: -1.15rem;
+}
+
+.slider .indicators .indicator-item{
+    border-radius: 15%;
 }

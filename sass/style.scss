@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900|Roboto:300,400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+// VAR LETRAS
+$letra: 'Montserrat', sans-serif;
+$negrita: bold;
+$mayuscula: uppercase;
+$minuscula: lowercase;
+$normal: normal;
+$diagonal: italic;
+$fino: 200;
+//
+
+// VAR COLORES
+$yellow: #ffeb3b;
+$blanco: #fff;
+$negro: #0000008c;
+//
+
+// VAR MENU RESPONSIVE
+$oculto: none;
+// 
+
+// VAR SLIDER
+$cero: 0;
+$cien: 100%;
+$absolute: absolute;
+$quince: 15%;
+$veinte: 20%;
+$unset: unset;
+//
+
+html{
+    body{
+        font:{
+            family: $letra;
+            weight: $normal;
+        }
+    }
+}
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        font:{
+            family: $letra;
+        }
+    }
+}
+
+// CLASES LETRAS
+.logo-color-bg {
+    background-color: $yellow;
+}
+
+.logo-color-text {
+    color: $yellow;
+}
+
+.brand-logo {
+    font:{
+        weight: 700;
+    }
+}
+
+.italic {
+    font:{
+        style: $diagonal;
+    }
+}
+
+.light {
+    font:{
+        weight: $fino;
+    }
+}
+
+.bold {
+    font:{
+        weight: $negrita;
+    }
+}
+
+.upper {
+    text-transform: $mayuscula;
+}
+
+.lower {
+    text-transform: $minuscula;
+}
+
+.xlogo {
+    max-width: 85px; 
+    height: 115px !important;
+}
+
+.subtitle {
+    font-size: 2.1rem;
+}
+// FIN CLASES LETRAS
+
+// CLASES MENU RESPONSIVE
+.divider {
+    display: $oculto;
+}
+// FIN CLASES MENU RESPONSIVE
+
+// CLASES ICONOS 
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+.iconify{
+    vertical-align: -1.15rem;
+}
+// FIN CLASES ICONOS
+
+// CLASES BOTON 
+.btn {
+    font:{ 
+        family: $letra;
+        style: $diagonal;
+    }
+}
+
+@media (max-width: 550px){
+    a.btn.btn-large.waves-effect.waves-light.yellow.lighten-1 {
+        margin-top: 10px;
+    }
+}
+// FIN CLASES BOTON
+
+// CLASES SLIDER
+.slider li:before {
+    content: '';
+    width: $cien;
+    height: $cien;
+    background: $negro;
+    position: $absolute;
+    top: $cero;
+    bottom: $cero;
+    left: $cero;
+    right: $cero;
+    z-index: $cero;
+}
+
+.sidenav {
+    font:{ 
+        family:$letra
+    }
+}
+
+.slider{
+    .indicators{
+        .indicator-item.active{ 
+            background-color: $yellow;
+        }
+    }
+}
+
+.slider{
+    .slides{
+        li{
+            .caption{
+                color: $blanco;
+                top: $unset;
+                left: $quince;
+                bottom: $veinte;
+            }
+        }
+    }
+}
+
+.slider .indicators .indicator-item{
+    border-radius: $quince;
+}
+// FIN CLASES SLIDER

@@ -1,0 +1,17 @@
+{
+  "name": "jkelectric",
+  "version": "1.0.0",
+  "description": "Instalaciones electricas integrales, automatizaciones, seguridad, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/style.scss css/styles_compiled.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "alejandrodev",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
