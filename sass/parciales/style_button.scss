@@ -1,0 +1,31 @@
+// CLASES BOTON 
+.btn {
+    font:{ 
+        family: $letra;
+        style: map-get($letra_style, "diagonal");
+    }
+}
+
+@media (max-width: 550px){
+    a.btn.btn-large.waves-effect.waves-light.yellow.lighten-1{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 350px){
+    a.btn.btn-large.waves-effect.waves-light.black-text.yellow{
+        font-size: 12px;                   
+    }
+
+    div.row.center{
+        padding: 5%;
+    }
+}
+
+@media (max-width: 332px){
+    a.btn.btn-large.waves-effect.waves-light.black-text.yellow{
+        font-size: 10px;
+    }
+}
+
+// FIN CLASES BOTON

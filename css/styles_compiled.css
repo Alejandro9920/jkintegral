@@ -8,24 +8,6 @@ html body {
   font-family: "Montserrat", sans-serif;
   font-weight: normal; }
 
-h1 {
-  font-family: "Montserrat", sans-serif; }
-
-h2 {
-  font-family: "Montserrat", sans-serif; }
-
-h3 {
-  font-family: "Montserrat", sans-serif; }
-
-h4 {
-  font-family: "Montserrat", sans-serif; }
-
-h5 {
-  font-family: "Montserrat", sans-serif; }
-
-h6 {
-  font-family: "Montserrat", sans-serif; }
-
 .logo-color-bg {
   background-color: #ffeb3b; }
 
@@ -52,30 +34,49 @@ h6 {
 
 .xlogo {
   max-width: 85px;
-  height: 115px !important; }
+  height: 115px !important;
+  background-image: url("../assets/img/icon.png"); }
 
 .subtitle {
   font-size: 2.1rem; }
 
-.divider {
-  display: none; }
+h1 {
+  font-family: "Montserrat", sans-serif; }
 
-.icon-block {
-  padding: 0 15px; }
+h2 {
+  font-family: "Montserrat", sans-serif; }
 
-.icon-block .material-icons {
-  font-size: inherit; }
+h3 {
+  font-family: "Montserrat", sans-serif; }
 
-.iconify {
-  vertical-align: -1.15rem; }
+h4 {
+  font-family: "Montserrat", sans-serif; }
 
-.btn {
-  font-family: "Montserrat", sans-serif;
-  font-style: italic; }
+h5 {
+  font-family: "Montserrat", sans-serif; }
 
-@media (max-width: 550px) {
-  a.btn.btn-large.waves-effect.waves-light.yellow.lighten-1 {
-    margin-top: 10px; } }
+h6 {
+  font-family: "Montserrat", sans-serif; }
+
+@media (max-width: 360px) {
+  a.brand-logo {
+    font-size: 1.70rem; } }
+
+@media (max-width: 280px) {
+  a.brand-logo {
+    font-size: 1.45rem; } }
+
+@media (max-width: 1700px) {
+  h1.upper.italic {
+    font-size: 3.56rem; } }
+
+@media (max-width: 1400px) {
+  h1.upper.italic {
+    font-size: 2.92rem; } }
+
+@media (max-width: 1115px) {
+  h1.upper.italic {
+    font-size: 2.28rem; } }
 
 .slider li:before {
   content: '';
@@ -103,3 +104,148 @@ h6 {
 
 .slider .indicators .indicator-item {
   border-radius: 15%; }
+
+.luces__img {
+  background-image: url("../assets/img/luces.jpg"); }
+
+.porton__img {
+  background-image: url("../assets/img/porton_electrico.jpeg"); }
+
+.camaras__img {
+  background-image: url("../assets/img/camaras.jpg"); }
+
+.planos__img {
+  background-image: url("../assets/img/planos_electricos.jpg"); }
+
+@media (max-width: 408px) {
+  h3.light.italic.upper {
+    font-size: 2.15rem; } }
+
+@media (max-width: 686px) {
+  h3.light.italic.upper {
+    font-size: 2.85rem; } }
+
+@media (max-width: 670px) {
+  h3.light.italic.upper {
+    font-size: 2.8rem; } }
+
+@media (max-width: 659px) {
+  h3.light.italic.upper {
+    font-size: 2.75rem; } }
+
+@media (max-width: 647px) {
+  h3.light.italic.upper {
+    font-size: 2.7rem; } }
+
+@media (max-width: 636px) {
+  h3.light.italic.upper {
+    font-size: 2.65rem; } }
+
+@media (max-width: 624px) {
+  h3.light.italic.upper {
+    font-size: 2.6rem; } }
+
+@media (max-width: 613px) {
+  h3.light.italic.upper {
+    font-size: 2.55rem; } }
+
+@media (max-width: 602px) {
+  h3.light.italic.upper {
+    font-size: 2.5rem; } }
+
+@media (max-width: 573px) {
+  h3.light.italic.upper {
+    font-size: 2.45rem; } }
+
+@media (max-width: 561px) {
+  h3.light.italic.upper {
+    font-size: 2.4rem; } }
+
+@media (max-width: 550px) {
+  h3.light.italic.upper {
+    font-size: 2.35rem; } }
+
+@media (max-width: 539px) {
+  h3.light.italic.upper {
+    font-size: 2.3rem; } }
+
+@media (max-width: 528px) {
+  h3.light.italic.upper {
+    font-size: 2.25rem; } }
+
+@media (max-width: 514px) {
+  h3.light.italic.upper {
+    font-size: 2.2rem; } }
+
+@media (max-width: 503px) {
+  h3.light.italic.upper {
+    font-size: 2.15rem; } }
+
+@media (max-width: 492px) {
+  h3.light.italic.upper {
+    font-size: 2.1rem; } }
+
+@media (max-width: 481px) {
+  h3.light.italic.upper {
+    font-size: 2.05rem; } }
+
+@media (max-width: 470px) {
+  h3.light.italic.upper {
+    font-size: 2rem; } }
+
+@media (max-width: 458px) {
+  h3.light.italic.upper {
+    font-size: 1.85rem; } }
+
+@media (max-width: 411px) {
+  h3.light.italic.upper {
+    font-size: 1.7rem; } }
+
+@media (max-width: 395px) {
+  h3.light.italic.upper {
+    font-size: 1.6rem; } }
+
+@media (max-width: 360px) {
+  h3.light.italic.upper {
+    font-size: 1.6rem; } }
+
+@media (max-width: 353px) {
+  h3.light.italic.upper {
+    font-size: 1.3rem; } }
+
+@media (max-width: 280px) {
+  h3.light.italic.upper {
+    font-size: 1.25rem; } }
+
+.icon-block {
+  padding: 0 15px; }
+
+.icon-block .material-icons {
+  font-size: inherit; }
+
+.iconify {
+  vertical-align: -1.15rem; }
+
+.divider {
+  display: none; }
+
+img.circle.responsive-img {
+  max-width: 18%; }
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic; }
+
+@media (max-width: 550px) {
+  a.btn.btn-large.waves-effect.waves-light.yellow.lighten-1 {
+    margin-top: 10px; } }
+
+@media (max-width: 350px) {
+  a.btn.btn-large.waves-effect.waves-light.black-text.yellow {
+    font-size: 12px; }
+  div.row.center {
+    padding: 5%; } }
+
+@media (max-width: 332px) {
+  a.btn.btn-large.waves-effect.waves-light.black-text.yellow {
+    font-size: 10px; } }

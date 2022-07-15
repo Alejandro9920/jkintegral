@@ -1,0 +1,105 @@
+// VAR SLIDER
+$cero: 0;
+$cien: 100%;
+$absolute: absolute;
+$quince: 15%;
+$veinte: 20%;
+$unset: unset;
+//
+
+// CLASES SLIDER
+.slider li:before {
+    content: '';
+    width: $cien;
+    height: $cien;
+    background: map-get($colores, "negro" );
+    position: $absolute;
+    top: $cero;
+    bottom: $cero;
+    left: $cero;
+    right: $cero;
+    z-index: $cero;
+}
+
+.sidenav {
+    font:{ 
+        family:$letra
+    }
+}
+
+.slider{
+    .indicators{
+        .indicator-item.active{ 
+            background-color: map-get($colores , "yellow" );
+        }
+    }
+}
+
+.slider{
+    .slides{
+        li{
+            .caption{
+                color: map-get($colores , "blanco" );
+                top: $unset;
+                left: $quince;
+                bottom: $veinte;
+            }
+        }
+    }
+}
+
+.slider{
+    .indicators{
+        .indicator-item{
+            border-radius: $quince;
+        }
+    }
+}
+
+.luces__img{
+    background-image: url('../assets/img/luces.jpg');
+}
+
+.porton__img{
+    background-image: url('../assets/img/porton_electrico.jpeg');
+}
+
+.camaras__img{
+    background-image: url('../assets/img/camaras.jpg');
+}
+
+.planos__img{
+    background-image: url('../assets/img/planos_electricos.jpg');
+}
+
+@each $key, $value in ( '408px':    2.15rem,
+                        '686px':    2.85rem,
+                        '670px':    2.80rem,
+                        '659px':    2.75rem,
+                        '647px':    2.70rem,
+                        '636px':    2.65rem,
+                        '624px':    2.60rem,
+                        '613px':    2.55rem,
+                        '602px':    2.50rem,
+                        '573px':    2.45rem,
+                        '561px':    2.40rem,
+                        '550px':    2.35rem,
+                        '539px':    2.30rem,
+                        '528px':    2.25rem,
+                        '514px':    2.20rem,
+                        '503px':    2.15rem,
+                        '492px':    2.10rem,
+                        '481px':    2.05rem,
+                        '470px':    2rem,
+                        '458px':    1.85rem,
+                        '411px':    1.70rem,
+                        '395px':    1.60rem,
+                        '360px':    1.60rem,
+                        '353px':    1.30rem,
+                        '280px':    1.25rem) {
+    @media (max-width: $key){
+        h3.light.italic.upper{
+            font-size: $value;
+        }
+    }
+}
